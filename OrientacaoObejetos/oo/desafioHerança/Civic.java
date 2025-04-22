@@ -1,9 +1,9 @@
-package desafioHerança;
+package oo.desafioHerança;
 
 public class Civic extends Carro {
 	
 	
-	Civic(){
+	public Civic(){
 		super(212);
 		
 	}

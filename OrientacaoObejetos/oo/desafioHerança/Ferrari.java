@@ -1,13 +1,13 @@
-package desafioHerança;
+package oo.desafioHerança;
 
 public class Ferrari extends Carro {
 	
 	
-	Ferrari(){
+	public Ferrari(){
 		this(320);
 	}
 	
-	Ferrari(int velocidadeMaxima){
+	public Ferrari(int velocidadeMaxima){
 		super(velocidadeMaxima);
 		delta = 500;
 	}

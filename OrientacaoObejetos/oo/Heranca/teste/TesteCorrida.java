@@ -1,4 +1,8 @@
-package desafioHerança;
+package oo.Heranca.teste;
+
+import oo.desafioHerança.Carro;
+import oo.desafioHerança.Civic;
+import oo.desafioHerança.Ferrari;
 
 public class TesteCorrida {
 	

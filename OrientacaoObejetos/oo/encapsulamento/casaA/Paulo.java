@@ -2,12 +2,12 @@ package oo.encapsulamento.casaA;
 
 public class Paulo {
 
-	Ana esposa = new Ana();
-	void testeAcesso() {	
-		 //segredo
-		 //facoDentroDeCasa 
-		 //formaDeFalar 
-		 //todosSabem 
+	
+	void testeAcesso() {
+		
+		Ana esposa = new Ana();
+		
+		
 		 //System.out.println(esposa.segredo);
 		 System.out.println(esposa.facoDentroDeCasa);
 		 System.out.println(esposa.formaDeFalar);

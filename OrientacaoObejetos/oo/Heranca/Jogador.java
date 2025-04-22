@@ -2,25 +2,20 @@ package oo.Heranca;
 
 public class Jogador {
 	
-	int vida = 100;
-	int x;
-	int y;
+	public int vida = 100;
+	public int x;
+	public int y;
 	
-	Jogador(){
-		this(0, 0);
-	}
-	
-	
-	Jogador(int x, int y){
+	 protected Jogador(int x, int y){
 		this.x = x;
 		this.y = x;
 	}
 	
-	boolean atacar(Jogador oponente){
+	public boolean atacar(Jogador oponente){
 		
 		// math.abs se a diferenca for -1 no final vai ser 1
-		int deltaX = Math.abs(x - oponente.x); 
-		int deltaY = Math.abs(y - oponente.y);
+		 int deltaX = Math.abs(x - oponente.x); 
+		 int deltaY = Math.abs(y - oponente.y);
 		
 		if(deltaX == 0 && deltaY == 1) {
 			oponente.vida -= 10;
@@ -34,7 +29,7 @@ public class Jogador {
 	
 	}
 	
-	 boolean andar(Direcao direcao) { 
+	 public boolean andar(Direcao direcao) { 
 		 switch(direcao) {
 		  case NORTE:
 		       y--;
